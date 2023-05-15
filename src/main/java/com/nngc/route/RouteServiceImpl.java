@@ -12,7 +12,7 @@ public class RouteServiceImpl implements RouteService{
 		RouteResponse routeResponse = new RouteResponse();
 
 		RestTemplate restTemplate = new RestTemplate();
-		String apiKey = "AIzaSyDj2dkCRuJy-mlQB99P7m4B3G_f79j7TDI";
+		String apiKey = "AP_KEY";
 
 		GoogleDistanceMatrixAPI googleDistanceMatrixAPI = new GoogleDistanceMatrixAPI();
 		googleDistanceMatrixAPI.setRestTemplate(restTemplate);
